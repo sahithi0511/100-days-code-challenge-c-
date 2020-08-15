@@ -21,6 +21,9 @@ int main(){
     if(i>j){
     	printf("Even numbers are more");
 	}
+	else if(i==j){
+		printf("Even and odd are equal");
+	}
 	else{
 		printf("Odd numbers are more");
 	}
