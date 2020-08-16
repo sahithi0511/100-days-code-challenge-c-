@@ -9,7 +9,7 @@ void five_table(int n,int o)
 }
 int main()
 {
-      int n,o;
-      scanf("%d %d",&n,&o);
+       int n,o;
+       scanf("%d %d",&n,&o);
       five_table(n,o);
 }
