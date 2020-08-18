@@ -11,11 +11,6 @@ void number_exist(int n,int d){
 		
 		break;
 		}
-		
-		else{
-			
-		}
-	
 	}
 	if(f==0)
 	{
