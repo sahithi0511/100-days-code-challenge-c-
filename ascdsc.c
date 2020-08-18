@@ -8,12 +8,13 @@ void count_this(n)
 	while(n)
 	{
 	    r=n%10;
-	    if(g>r){
+	    if(g>=r){
 	    f++;
 	    g=r;
 		}
-		else if(g<r)
+		else if(g<=r)
 		{
+			g=r;
 		h++;
 		}
         n=n/10;
