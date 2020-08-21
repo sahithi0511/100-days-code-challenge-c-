@@ -12,7 +12,7 @@ for(i=1;i<=n;i++)
 	{
 		
 		printf("%d is in forward direction \n",i);
-		printf("%d %d \n",j,k);
+	 //	printf("%d %d \n",j,k);
 	}
 	if(k>0)
 	{
