@@ -6,7 +6,7 @@
 // number in given range 
 void primeInRange(int L, int R) 
 { 
-	int i, j, flag; 
+	int i, j, flag,c=0; 
 
 	// Traverse each number in the 
 	// interval with the help of for loop 

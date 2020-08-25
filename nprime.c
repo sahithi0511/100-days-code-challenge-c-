@@ -34,7 +34,7 @@ void prime(int n)
 	}
 	 if(fg==0)
 	{
-		//printf("prime number is %d \n",num);
+	//	printf("prime number is %d \n",num);
 		break;
 	}			
 	
