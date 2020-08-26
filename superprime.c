@@ -11,14 +11,13 @@ void super_prime(int n)
 	}
 	if(f==0)
 	{
-		while(1)
+		  num=n-1;
+		while(num>=2 || numb>=2)
 		{
 		
 	//	printf("prime");
-     num=n-1;
+   
     // printf("%d",num);
-	while(num>0)
-	{
 		//printf("num is %d \n",num);
 		for(j=2;j<=num/2;j++)
     	{
@@ -32,9 +31,9 @@ void super_prime(int n)
 	}
 	 if(fg==0)
 	{
-		printf("prime number is %d \n",num);
+	//	printf("prime number is %d \n",num);
 		numbe=num;
-		break;
+		//break;
 	}			
 	
      if(fg!=0)
@@ -44,11 +43,8 @@ void super_prime(int n)
 			//printf(" when fg!=0 %d \n",num);
 		}
    	
-	}
 	numb=num-1;
-		while(numb>0)
-	{
-		//printf("num is %d \n",num);
+	//	printf("num is %d \n",numb);
 		for(k=2;k<=numb/2;k++)
     	{
 		if(numb%k==0)
@@ -61,8 +57,8 @@ void super_prime(int n)
 	}
 	 if(fgn==0)
 	{
-		printf("prime number is %d \n",numb);
-		break;
+		//printf("prime number is %d \n",numb);
+	//	break;
 	}			
 	
      if(fgn!=0)
@@ -73,7 +69,6 @@ void super_prime(int n)
 			//printf(" when fg!=0 %d \n",num);
 		}
    	
-	}
 //	printf("%d %d %d ",n,num,numb);
      sp=num+numb+1;
      if(sp==n)
@@ -87,11 +82,13 @@ void super_prime(int n)
 	 	num=num-1;
 	 }
 	
+	
 }
-if(num==0 || numb==0 )
+ if(num<2 || numb<2 )
 {
 	printf("not super prime %d",n);
 }
+
      
 	}
 
