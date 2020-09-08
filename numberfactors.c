@@ -31,13 +31,18 @@ void fa_num(int n)
          	{
          		break;
 			 }
-         	 for(i=1;i<n;i++)
+         	 for(i=1;i<=n/2;i++)
    	{
    		if(n%i==0)
    		{
    			sum=sum+i;
    		//	printf("%d",i);
 		   }
+	   }
+	   if(sum==n)
+	   {
+	   	printf("%d",sum);
+	   	break;
 	   }
 	  // printf("%d \n",sum);
 	   n=sum;
