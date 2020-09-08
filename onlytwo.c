@@ -2,13 +2,14 @@
 void only_two(int n1,int n2,int n3,int rot)
 {
 	int i,sum;
-	for(i=1;i<=rot;i++)//1 112
+	for(i=4;i<=rot;i++)//1 112
 	{
 	    sum=n1+n2; 
 	    n1=n2;
 	    n2=n3;
 	    n3=sum;
-	   printf("%d ",n3);	
+	   printf("%d ",n3);
+	   
 	}
 	
 }
