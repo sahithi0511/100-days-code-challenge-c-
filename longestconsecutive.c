@@ -16,7 +16,9 @@ void longest_consecutive(int n)
 			  n=n>>1;
 			if(big<sum)
 			{ 
+			
 			  big=sum;
+			  printf("%d \n",big);
 				
 			}	
 			}
