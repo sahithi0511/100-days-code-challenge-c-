@@ -1,18 +1,20 @@
 #include<stdio.h>
 void pattern(int n)
 {
-	int i,j,num;
+	int i,j,num=n;
 	for(i=n;i>=1;i--)
 	{
-		//num=3;
+		num=n;
 		for(j=n;j>=1;j--)
 		{
-			
-			if(j<3)
+		   
+			if(j<=n/2)
 			{  
-			   num=num+1;
-			   num=n-(j-1);
+			   
+			    
 				printf("%d",num);
+				num=num-1;
+				 
 				
 				
 			}
