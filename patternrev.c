@@ -12,7 +12,7 @@ int pattern_rev(int n)
 		for(j=1;j<=((i*2)-1);j++)
 		{
 			
-			printf("%d",(n-j));
+			printf("%d",i);
 		     // num=i+2;
 			 
 		  
