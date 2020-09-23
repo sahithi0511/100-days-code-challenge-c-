@@ -9,10 +9,10 @@ int pattern_rev(int n)
 		{
 			printf(" ");
 		}
-		for(j=1;j<=((i*2)-1);j++)
+		for(j=((i*2)-1);j>=1;j--)
 		{
 			
-			printf("%d",(n-j));
+			printf("%d",j);
 		     // num=i+2;
 			 
 		  

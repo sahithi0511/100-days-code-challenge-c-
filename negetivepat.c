@@ -1,18 +1,20 @@
 #include<stdio.h>
+#include<math.h>
 int pattern_rev(int n)
 {
 	
-	int i,j,k,num=1,f=0;
-	for(i=1;i<=n;i++)
+	int i,j,k,num=n-1,f=0;
+	for(i=0;i>-n;i--)
 	{
 		for(k=1;k<=(n-i);k++)
 		{
 			printf(" ");
 		}
-		for(j=1;j<=((i*2)-1);j++)
+		for(j=0;j>((i*2)-1);j--)
 		{
 			
-			printf("%d",(n-j));
+			
+			printf("%d",j);
 		     // num=i+2;
 			 
 		  
