@@ -7,13 +7,17 @@ int max_duplicatezeros(int *arr,int n)
 		f=0;
 		for(k=0;k<j;k++)
 		{
-			if(arr[i]>a[k])
+			if(arr[i]<a[k])
 			{
 				f=1;
-				break;
 			}
+			else
+			{
+				
+			}
+			
 		}
-		if(f==1)
+		if(f==0)
 		{ 
 		    a[j]=arr[i];
 		    printf("%d",arr[j]);
