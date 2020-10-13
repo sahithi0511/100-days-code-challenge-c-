@@ -30,7 +30,7 @@ int divide_array(int *arr,int n)
 	}
 	for(l=0;l<n;l++)
 	{
-		//printf("%d",d[l]);
+	//	printf("%d",d[l]);
 		arr[l]=d[l];
 	}
 	

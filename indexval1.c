@@ -1,31 +1,28 @@
 #include<stdio.h>
 void index_val(int *num,int *index,int n)
 {
-	int i=0,a[100]={-1},d=0,k,e,f;
+	int i,j,a[100],d=0,k,e,f;
 	for(i=0;i<n;i++)
 	{
-		a[i]=-1;
+	//printf("%d ",a[index[i]]);
+	  a[i]=-1;
+	  //printf("%d %d\n",a[index[i]],a[i]);
+	}
+	for(j=0;j<n;j++)
+	{
+	   if(a[i]==-1)
+	   {
+	   	a[index[i]]=num[i];
+	    }
+	    
+			
+	}
+	for(i=0;i<n;i++)
+	{
+		printf("%d ",a[i]);
 	}
 	
-	for(i=n-1;i>=0;i--)
-	{
-		if(a[index[i]]==-1)
-		{
-			printf("%d is a[index[i]]\n",a[index[i]]);
-			
-	        a[index[i]]=num[i];
-		}
-		else
-		{
-	           d=index[i];
-	           printf("%d\n",d);
-	           
-		}
-	}
-	for(i=0;i<n;i++)
-	{
-		printf("%d",a[index[i]]);
-	}
+	
 	 
 }
 int main()
