@@ -39,7 +39,7 @@ void longest_consecutive(int n)
 		}
 	//	printf("%d",big);
 	}
-
+//Longest consecutive
 int main()
 {
 	int n;
