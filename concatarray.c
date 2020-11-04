@@ -9,11 +9,9 @@ void low_upparr(char *str)
 {
 	int i,len,k;
 	len=len_arr(str);
-	//printf("%d",len);
 	for(i=0;i<len;i++)
 	{
 		k=str[i];
-	//	printf("%d\n",k);
 		if(k>=65 && k<97)
 		{
 			str[i]=str[i]+32;
